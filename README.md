@@ -23,4 +23,4 @@ Input: The number of servers, the distribution of arrival times, the expected se
 
 Objects were created that represent customers (they keep track of how long they are waiting), tellers( they can be busy or free), the line ( a queue of customers) and timers(tellers decrement their timer and customers on line increment their timers).
 
-A random number generator was used to determine the probability of a customer arriving during each loop iteration: (0.0 – no arrival to 1.0 – definitely arrives). For example, if a customer arrives on an average of every 5 minutes, the probability is 1 chance in 5 (or .2).
+A random number generator was used to determine the probability of a customer arriving during each loop iteration: (0.0 – no arrival to 1.0 – definitely arrives). For example, if a customer arrives on an average of every 5 minutes, the probability is 1 chance in 5 (or .2)
